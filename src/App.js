@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import List from './components/List/List';
 import Map from './components/Map/Map';
 
-import { useLoadingUpdate } from './Contexts/LoadingContext';
+import { useLoadingUpdate } from './contexts/LoadingContext';
 
 import { getPlacesData } from './api';
 

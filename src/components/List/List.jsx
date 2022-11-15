@@ -9,7 +9,7 @@ import {
   Select,
 } from '@material-ui/core';
 
-import { useLoading } from '../../Contexts/LoadingContext';
+import { useLoading } from '../../contexts/LoadingContext';
 
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import useStyles from './styles';

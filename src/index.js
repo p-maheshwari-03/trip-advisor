@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import { LoadingProvider } from './Contexts/LoadingContext';
+import { LoadingProvider } from './contexts/LoadingContext';
 
 ReactDOM.render(
   <LoadingProvider>
