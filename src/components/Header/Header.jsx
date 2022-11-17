@@ -21,7 +21,7 @@ const Header = ({ setCoordinates }) => {
   return (
     <AppBar position="static">
       <Toolbar className={classes.toolbar}>
-        <Typography variant="h5">Trip Advisor by Sid</Typography>
+        <Typography variant="h5">Trip Advisor</Typography>
         <Box display="flex">
           <Typography variant="h6">Explore new places</Typography>
           <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
